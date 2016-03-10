@@ -1,0 +1,116 @@
+html,
+body {
+  background-color: #f5f7f4 !important;
+}
+
+.top-buffer {
+  height: 20px;
+}
+
+.logo {
+  position: relative;
+  height: 100px;
+}
+
+.logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -113px;
+  margin-top: -16px;
+}
+
+.table-rounded {
+  border: none;
+  -webkit-box-shadow: 0px 15px 5px -10px rgba(209, 209, 209, 1);
+  -moz-box-shadow: 0px 15px 5px -10px rgba(209, 209, 209, 1);
+  box-shadow: 0px 15px 5px -10px rgba(209, 209, 209, 1);
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1pt;
+}
+
+.table-rounded thead th {
+  background-color: #47ae3b;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15px !important;
+  font-size: 15px;
+}
+
+.table-rounded thead td {
+  vertical-align: middle !important;
+}
+
+.table-rounded thead th:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+.table-rounded thead th:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+.table-rounded tbody td {
+  border: none;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  vertical-align: middle !important;
+  font-size: 8pt;
+}
+
+.table-rounded tbody tr {
+  border: 1px solid #f5f7f4;
+}
+
+.table-rounded tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+.table-rounded tbody tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+.table-rounded tfoot td {
+  border: none;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 8pt;
+}
+
+.table-rounded tfoot tr {
+  border: 1px solid #f5f7f4;
+  border: 1px solid #f5f7f4;
+}
+
+.table-rounded tfoot tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+.table-rounded tfoot tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+.glyphicon-plus-sign {
+  color: #47ae3b;
+}
+
+.glyphicon-minus-sign {
+  color: #e31f27;
+}
+
+.table-rounded thead th .glyphicon {
+  font-size: 30px;
+  line-height: 0;
+  vertical-align: middle;
+  margin: 5px 15px 5px 5px;
+}
+
+.red {
+  color: #e31f27
+}
+
+.blue {
+  color: blue
+}
